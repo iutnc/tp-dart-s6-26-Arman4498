@@ -31,10 +31,10 @@ void main() {
     );
   //8
   const String welcome8 = "Hello, World !";
-  const List words = ["Hello", "World"];
+  // a finir
   //9
   String pwd = "superMotDePasse";
-  print(pwd.isEmpty ? "Mot de passe manquant" : "Mot de passe fourni");
+  // a finir
   //10
   String email = "john@doe.com";
   bool emailestvalid = email.contains('@') && email.contains('.');
