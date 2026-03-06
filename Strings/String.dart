@@ -21,20 +21,20 @@ void main() {
   const String welcome7 = "Hello, World !";
   print(
     welcome7
-      .replaceAll('e', '3')
       .replaceAll('l', '1')
       .replaceAll('o', '8')
-      .replaceAll('L', '1')
-      .replaceAll('O', '8')
-      .replaceAll('d', 'D')
+      .replaceAll('e', '3')
       .replaceAll('r', 'R')
+      .replaceAll('d', 'D')
+      .replaceAll('O', '8')
+      .replaceAll('L', '1')
     );
   //8
   const String welcome8 = "Hello, World !";
-  // a finir
+  const List words = ["Hello", "World"];
   //9
   String pwd = "superMotDePasse";
-  // a finir
+  print(pwd.isEmpty ? "Mot de passe manquant" : "Mot de passe fourni");
   //10
   String email = "john@doe.com";
   bool emailestvalid = email.contains('@') && email.contains('.');
